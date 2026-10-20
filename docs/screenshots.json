@@ -1,0 +1,5 @@
+[
+  {"file":"01-focus-timer.png","caption":"The menu bar popover mid-focus block: a countdown ring, a task label, Pause/Skip/Reset controls, and today's and this week's counts above a seven-day bar chart.","alt":"PomodoroPace popover showing a running 25-minute focus timer and weekly history chart"},
+  {"file":"02-settings.png","caption":"Settings for focus and break lengths, auto-start, sleep handling, the end-of-block chime, menu bar display and launch at login.","alt":"PomodoroPace Settings window with durations, behavior, alerts and menu bar options"},
+  {"file":"03-short-break.png","caption":"During a short break the ring and Pause button turn green so you can tell at a glance that it's time to rest.","alt":"PomodoroPace popover showing a green short-break countdown"}
+]

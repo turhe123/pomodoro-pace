@@ -1,5 +1,7 @@
 # PomodoroPace
 
+**🌐 Website:** [turhe123.github.io/pomodoro-pace](https://turhe123.github.io/pomodoro-pace/)
+
 A menu bar pomodoro timer with task labels, daily session counts and a gentle chime when each block ends.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -28,7 +30,17 @@ PomodoroPace is a free, open-source, 100% native, backend-free alternative to pa
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-focus-timer.png" alt="PomodoroPace popover showing a running 25-minute focus timer and weekly history chart" width="720"></p>
+
+<p align="center"><em>The menu bar popover mid-focus block: a countdown ring, a task label, Pause/Skip/Reset controls, and today&#x27;s and this week&#x27;s counts above a seven-day bar chart.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-settings.png" alt="PomodoroPace Settings window with durations, behavior, alerts and menu bar options" width="560"></p>
+
+<p align="center"><em>Settings for focus and break lengths, auto-start, sleep handling, the end-of-block chime, menu bar display and launch at login.</em></p>
+
+<p align="center"><img src="docs/screenshots/03-short-break.png" alt="PomodoroPace popover showing a green short-break countdown" width="560"></p>
+
+<p align="center"><em>During a short break the ring and Pause button turn green so you can tell at a glance that it&#x27;s time to rest.</em></p>
 
 ## Install
 

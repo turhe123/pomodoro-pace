@@ -1,0 +1,60 @@
+{
+  "seo_title": "Menu bar pomodoro timer for macOS",
+  "seo_description": "PomodoroPace is a free, open-source menu bar pomodoro timer for macOS. Task labels, daily session counts, a seven-day chart and a gentle chime.",
+  "hero_title_line1": "Focus in blocks.",
+  "hero_title_accent": "Right from the menu bar.",
+  "hero_sub": "A native pomodoro timer with task labels, daily session counts and a gentle chime when each block ends. Open the popover, then press Space to start.",
+  "features_title": "Everything a focus timer needs.",
+  "features_sub": "Three phases, honest history and quiet alerts, with nothing leaving your Mac.",
+  "features": [
+    {
+      "icon": "clock",
+      "title": "Focus, short and long breaks",
+      "desc": "Defaults to 25, 5 and 15 minutes, with a long break after a block count you choose. Auto-start the next break or focus block if you like."
+    },
+    {
+      "icon": "text",
+      "title": "Label every block",
+      "desc": "Add an optional task label to each focus block and pick from your 50 most recent labels."
+    },
+    {
+      "icon": "sliders",
+      "title": "Daily and weekly history",
+      "desc": "See today's completed blocks, daily and weekly counts with total focused minutes, and a seven-day bar chart."
+    },
+    {
+      "icon": "bell",
+      "title": "A chime when time is up",
+      "desc": "Choose from 14 built-in macOS sounds with a preview button, plus a notification. If notifications are denied, the menu bar title flashes instead."
+    },
+    {
+      "icon": "keyboard",
+      "title": "Keyboard-first controls",
+      "desc": "In the popover, Space starts or pauses, S skips and R resets. The shortcuts are ignored while you type a label."
+    },
+    {
+      "icon": "battery",
+      "title": "Survives sleep and clock changes",
+      "desc": "Blocks track a monotonic deadline, so time zone and clock changes do not break them. A setting decides whether time asleep counts toward the block."
+    }
+  ],
+  "permissions_step": "When prompted, allow notifications for PomodoroPace (System Settings > Notifications) so you see a banner when a block ends; Login Items is only needed if you enable Launch at login.",
+  "faq": [
+    {
+      "q": "Is PomodoroPace really free and open source?",
+      "a": "Yes. It is released under the MIT license, the full source is on GitHub, and there are no ads, accounts or in-app purchases. If you find it useful, there is an optional Support button in the app."
+    },
+    {
+      "q": "What permissions does it need?",
+      "a": "Notifications, requested at first launch to show a banner when a block ends. Login Items is used only if you turn on Launch at login. It does not ask for Accessibility, Screen Recording, Microphone or any other privacy permission."
+    },
+    {
+      "q": "Where is my data stored?",
+      "a": "Only on your Mac. Settings and recent labels live in UserDefaults, and session history is a JSON file at ~/Library/Application Support/PomodoroPace/history.json. History older than a year is pruned, and the app makes no network calls."
+    },
+    {
+      "q": "Why isn't the app notarized?",
+      "a": "Notarization requires a paid Apple Developer account, and this is a free project. Right-click the app and choose Open once to get past Gatekeeper, or build it yourself from source with Xcode."
+    }
+  ]
+}
